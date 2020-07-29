@@ -1,30 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Blog Example
 
-## Getting Started
+This repo contains an example of a statically generated blog which has been built using [Next.js](https://nextjs.org/), with the content being pulled from [LexasCMS](https://www.lexascms.com/).
 
-First, run the development server:
+<p align="center">
+  <img src="preview.png" alt="Next.js Blog Example Preview" style="max-width:90%;" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Click here](https://lexascms-example-next-blog.netlify.app/) to view a live demo of this repo.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deploy to Netlify
 
-## Learn More
+Before deploying this repo, you'll need to have created a space using the **Blog Starter Template** in your LexasCMS account.
 
-To learn more about Next.js, take a look at the following resources:
+After creating your new space, copy your space ID and then click the button below to deploy the project to [Netlify](https://www.netlify.com/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/LexasCMS/example-next-blog)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you don't yet have an account, you can [click here](https://app.lexascms.com/signup) to start a free trial.
