@@ -1,0 +1,6 @@
+[template.environment]
+  LEXASCMS_SPACE_ID = "LexasCMS Space ID"
+
+[build]
+  publish = "out/"
+  command = "yarn run build && yarn run next export"
